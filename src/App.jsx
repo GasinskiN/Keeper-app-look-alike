@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Note from "./Note";
 import notes from "./notes";
+import CreateArea from "./CreateArea";
 
 
 
@@ -10,6 +11,7 @@ function App(){
     return (
         <div>
             <Header />
+            <CreateArea />
             {notes.map(component => (<Note
                 key = {component.key}
                 title = {component.title}
