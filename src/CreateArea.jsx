@@ -15,7 +15,6 @@ function CreateArea(props){
                 [name]: value
             };
         })
-        console.log(content);
     }
     function handleSubmit(event){
         event.preventDefault();
